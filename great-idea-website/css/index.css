@@ -64,3 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container{
+	width: 800px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+nav {
+	display: inline-block;
+	
+
+}
+nav a{
+margin: 0 20px;
+text-decoration: none;
+
+}
+
+.logo{
+	position: relative;
+	top:0px;
+	right:-50px;
+}
+
+
+.TopPartElement{
+	display:inline-block;
+	height:200px; 
+    width: 49%; 
+}
+
+
+
+.TopPartElement .Top{
+	width: 800px;
+	margin: 50 px;
+	color: red;
+}
