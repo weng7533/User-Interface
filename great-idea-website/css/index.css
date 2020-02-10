@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container{
+	width: 850px;
+	
+	margin: auto;
+	
+}
+
+nav{
+	display: inline-block;
+	color:rgb(197, 192, 192);
+	font-weight: bold;
+}
+
+nav a{
+	color:rgb(197, 192, 192);
+margin: 0 20px;
+text-decoration: none;
+
+}
+
+.logo{
+	position: relative;
+	top:10px;
+	right:-50px;
+}
+
+
+.TopPartElement{
+	display:inline-block;
+	height:200px; 
+    width: 49%; 
+}
+
+
+
+ .Top{
+	display:inline-block;
+	width: 49%; 
+	margin: 50 px;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.TopPart .Top h1{
+	font-size: 500%;
+}
+
+.TopPart .Top .GetStarted{
+	border: 1px solid black;
+	margin: 0px 80px;
+
+    padding: 10px 30px;
+
+
+}
+
+.TopPart{
+	margin: 50px;
+}
+
+.MiPart{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.MiPart .MiPart1{
+	display: inline-block;
+	width: 49%; 
+	margin: 35px 0;
+	
+
+}
+
+.MiPart .middle-img{
+	width: 100%;
+}
+.MiPart .MiPart2{
+	display: inline-block;
+	width: 33%; 
+	margin: 35px 0;
+}
+
+
+.BPart{
+	margin: 35px 0;
+}
+.Copyright{
+	text-align: center;
+}
